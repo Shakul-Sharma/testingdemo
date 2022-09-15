@@ -5,6 +5,12 @@ pipeline {
 		steps {
 		git branch: 'main', credentialsId: '5f8a08d1-efe7-43a7-8500-fe45450538d8', url: 'https://github.com/Shakul-Sharma/testingdemo.git'
 		}
+	}
+	    stage('Java version') {
+	        steps {
+		sh "java --version"
+		
+		}
 	}	
 }
 }	
