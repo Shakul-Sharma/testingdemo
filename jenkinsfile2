@@ -1,5 +1,5 @@
 pipeline {
-  agent 
+  agent any
   //Generates Parameters for Jenkins Job
   //parameters {
   //string defaultValue: '', description: '', name: 'api_type'
